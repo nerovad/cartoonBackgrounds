@@ -24,5 +24,5 @@
     "to_q",
     "to_v"
   ],
-  "task_type": "UNET"
+  "task_type": null
 }

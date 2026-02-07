@@ -1,16 +1,12 @@
---extra-index-url https://download.pytorch.org/whl/cu121
+# torch, torchvision, torchaudio installed via: sudo pacman -S python-pytorch-cuda
 
-torch==2.0.1
-torchvision==0.15.2
-torchaudio==2.0.2
+transformers>=4.36
+diffusers>=0.28
+huggingface_hub>=0.22
+accelerate>=0.28
 
-transformers==4.36.2
-diffusers==0.28.0
-huggingface_hub==0.22.2
-accelerate==0.28.0
+peft>=0.7
+bitsandbytes>=0.42
+xformers>=0.0.22
 
-peft==0.7.1
-bitsandbytes==0.42.0
-xformers==0.0.22
-
-numpy==1.26.4
+numpy>=1.26

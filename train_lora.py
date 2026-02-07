@@ -119,7 +119,7 @@ lora_config = LoraConfig(
     target_modules=["to_q", "to_k", "to_v", "to_out.0"],
     lora_dropout=0.05,
     bias="none",
-    task_type="UNET",
+    task_type=None,
 )
 
 unet = get_peft_model(unet, lora_config)

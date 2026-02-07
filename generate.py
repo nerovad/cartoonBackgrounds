@@ -1,9 +1,10 @@
 import argparse
 import torch
 from pathlib import Path
+from safetensors.torch import load_file
 
 from diffusers import StableDiffusionPipeline
-from peft import PeftModel
+from peft import LoraConfig, get_peft_model
 
 
 def load_pipeline(model_id, lora_path, device):
@@ -14,8 +15,17 @@ def load_pipeline(model_id, lora_path, device):
         safety_checker=None,
     ).to(device)
 
-    # Load LoRA adapter onto UNet
-    pipe.unet = PeftModel.from_pretrained(pipe.unet, lora_path)
+    # Apply LoRA config then load the trained weights
+    lora_config = LoraConfig(
+        r=4,
+        lora_alpha=16,
+        target_modules=["to_q", "to_k", "to_v", "to_out.0"],
+        lora_dropout=0.0,
+        bias="none",
+    )
+    pipe.unet = get_peft_model(pipe.unet, lora_config)
+    state_dict = load_file(Path(lora_path) / "adapter_model.safetensors")
+    pipe.unet.load_state_dict(state_dict, strict=False)
     pipe.unet.eval()
 
     return pipe
@@ -40,12 +50,16 @@ def generate(pipe, prompt, output_path, num_images=1, steps=50, guidance=7.5, se
     output_path = Path(output_path)
     output_path.mkdir(parents=True, exist_ok=True)
 
+    # Find the next available index
+    existing = sorted(output_path.glob("output_*.png"))
+    if existing:
+        last = int(existing[-1].stem.split("_")[1])
+    else:
+        last = 0
+
     saved = []
     for i, img in enumerate(images):
-        if num_images == 1:
-            name = output_path / "output.png"
-        else:
-            name = output_path / f"output_{i+1}.png"
+        name = output_path / f"output_{last + i + 1}.png"
         img.save(name)
         saved.append(name)
         print(f"Saved: {name}")
