@@ -1,6 +1,8 @@
 ---
 library_name: peft
-base_model: /root/.cache/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/unet
+base_model: /home/nerovad/.cache/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/unet
+tags:
+- lora
 ---
 
 # Model Card for Model ID
@@ -199,4 +201,5 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 [More Information Needed]
 ### Framework versions
 
+- PEFT 0.18.1
 - PEFT 0.7.1

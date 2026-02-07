@@ -136,7 +136,7 @@ logger.info(f"Trainable parameters: {trainable:,} / {total:,} ({100 * trainable 
 
 # --- PREP DATA ---
 dataset = CartoonDataset(dataset_dir)
-dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=2, pin_memory=True)
+dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=True)
 optimizer = torch.optim.AdamW(filter(lambda p: p.requires_grad, unet.parameters()), lr=lr, weight_decay=1e-2)
 
 # Cosine LR schedule with warmup

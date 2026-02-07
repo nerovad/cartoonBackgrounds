@@ -1,0 +1,167 @@
+2026-02-07 09:50:44,161 [INFO] Loading base model: runwayml/stable-diffusion-v1-5
+2026-02-07 09:50:44,355 [INFO] HTTP Request: GET https://huggingface.co/api/models/runwayml/stable-diffusion-v1-5 "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:50:44,450 [INFO] HTTP Request: GET https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5 "HTTP/1.1 200 OK"
+2026-02-07 09:50:44,548 [INFO] HTTP Request: HEAD https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/model_index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:50:44,638 [INFO] HTTP Request: HEAD https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/model_index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:50:44,660 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stable-diffusion-v1-5/stable-diffusion-v1-5/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/model_index.json "HTTP/1.1 200 OK"
+2026-02-07 09:50:44,754 [INFO] HTTP Request: GET https://huggingface.co/api/models/runwayml/stable-diffusion-v1-5/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:50:44,856 [INFO] HTTP Request: GET https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5/revision/main "HTTP/1.1 200 OK"
+2026-02-07 09:50:44,950 [INFO] HTTP Request: HEAD https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/safety_checker/model.safetensors "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:50:44,999 [INFO] HTTP Request: HEAD https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/safety_checker/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:50:45,045 [INFO] HTTP Request: HEAD https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/safety_checker/model.safetensors "HTTP/1.1 302 Found"
+2026-02-07 09:50:45,097 [INFO] HTTP Request: HEAD https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/safety_checker/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:50:45,113 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stable-diffusion-v1-5/stable-diffusion-v1-5/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/safety_checker%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-07 09:50:45,130 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/stable-diffusion-v1-5/stable-diffusion-v1-5/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/safety_checker%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-07 09:50:45,139 [INFO] HTTP Request: GET https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5/xet-read-token/451f4fe16113bff5a5d2269ed5ad43b0592e9a14 "HTTP/1.1 200 OK"
+2026-02-07 09:52:49,080 [INFO] Trainable parameters: 1,594,368 / 861,115,332 (0.19%)
+2026-02-07 09:52:49,175 [INFO] Loaded 53 valid images from dataset
+2026-02-07 09:52:49,178 [INFO] Starting training: 10 epochs, 53 steps/epoch, grad accum 8, effective batch 8
+2026-02-07 09:52:52,354 [INFO] Loading base model: runwayml/stable-diffusion-v1-5
+2026-02-07 09:52:52,568 [INFO] HTTP Request: GET https://huggingface.co/api/models/runwayml/stable-diffusion-v1-5 "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:52:52,670 [INFO] HTTP Request: GET https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5 "HTTP/1.1 200 OK"
+2026-02-07 09:52:52,761 [INFO] HTTP Request: HEAD https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/model_index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:52:52,853 [INFO] HTTP Request: HEAD https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/model_index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:52:52,870 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stable-diffusion-v1-5/stable-diffusion-v1-5/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/model_index.json "HTTP/1.1 200 OK"
+2026-02-07 09:52:54,806 [INFO] Trainable parameters: 1,594,368 / 861,115,332 (0.19%)
+2026-02-07 09:52:54,830 [INFO] Loaded 53 valid images from dataset
+2026-02-07 09:52:54,836 [INFO] Starting training: 10 epochs, 53 steps/epoch, grad accum 8, effective batch 8
+2026-02-07 09:58:47,885 [INFO] Loading base model: runwayml/stable-diffusion-v1-5
+2026-02-07 09:58:48,104 [INFO] HTTP Request: GET https://huggingface.co/api/models/runwayml/stable-diffusion-v1-5 "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:58:48,195 [INFO] HTTP Request: GET https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5 "HTTP/1.1 200 OK"
+2026-02-07 09:58:48,281 [INFO] HTTP Request: HEAD https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/model_index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:58:48,368 [INFO] HTTP Request: HEAD https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/model_index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-07 09:58:48,384 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stable-diffusion-v1-5/stable-diffusion-v1-5/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/model_index.json "HTTP/1.1 200 OK"
+2026-02-07 09:58:50,157 [INFO] Trainable parameters: 1,594,368 / 861,115,332 (0.19%)
+2026-02-07 09:58:50,181 [INFO] Loaded 53 valid images from dataset
+2026-02-07 09:58:50,184 [INFO] Starting training: 10 epochs, 53 steps/epoch, grad accum 8, effective batch 8
+2026-02-07 09:59:19,885 [INFO] Epoch 1/10 | Step 10/53 | Loss: 0.2814 | LR: 2.00e-06
+2026-02-07 09:59:48,603 [INFO] Epoch 1/10 | Step 20/53 | Loss: 0.0345 | LR: 4.00e-06
+2026-02-07 10:00:17,220 [INFO] Epoch 1/10 | Step 30/53 | Loss: 0.0171 | LR: 6.00e-06
+2026-02-07 10:00:45,977 [INFO] Epoch 1/10 | Step 40/53 | Loss: 0.2163 | LR: 1.00e-05
+2026-02-07 10:01:14,617 [INFO] Epoch 1/10 | Step 50/53 | Loss: 0.0371 | LR: 1.20e-05
+2026-02-07 10:01:27,927 [INFO] Epoch 1/10 | Step 53/53 | Loss: 0.0376 | LR: 1.20e-05
+2026-02-07 10:01:27,928 [INFO] Epoch 1 complete — Avg Loss: 0.1478
+2026-02-07 10:01:27,962 [INFO] Saved checkpoint: output/lora-model/epoch-1
+2026-02-07 10:01:27,962 [INFO] Generating validation samples for epoch 1...
+2026-02-07 10:01:32,119 [INFO]   Saved sample: epoch-1_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:01:36,189 [INFO]   Saved sample: epoch-1_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:01:40,208 [INFO]   Saved sample: epoch-1_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:01:44,315 [INFO]   Saved sample: epoch-1_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:02:23,367 [INFO] Epoch 2/10 | Step 10/53 | Loss: 0.0200 | LR: 1.40e-05
+2026-02-07 10:02:51,916 [INFO] Epoch 2/10 | Step 20/53 | Loss: 0.0830 | LR: 1.60e-05
+2026-02-07 10:03:20,419 [INFO] Epoch 2/10 | Step 30/53 | Loss: 0.1847 | LR: 1.80e-05
+2026-02-07 10:03:49,013 [INFO] Epoch 2/10 | Step 40/53 | Loss: 0.6543 | LR: 2.20e-05
+2026-02-07 10:04:17,726 [INFO] Epoch 2/10 | Step 50/53 | Loss: 0.3048 | LR: 2.40e-05
+2026-02-07 10:04:26,258 [INFO] Epoch 2/10 | Step 53/53 | Loss: 0.0655 | LR: 2.40e-05
+2026-02-07 10:04:26,258 [INFO] Epoch 2 complete — Avg Loss: 0.1688
+2026-02-07 10:04:26,289 [INFO] Saved checkpoint: output/lora-model/epoch-2
+2026-02-07 10:04:26,289 [INFO] Generating validation samples for epoch 2...
+2026-02-07 10:04:29,780 [INFO]   Saved sample: epoch-2_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:04:33,228 [INFO]   Saved sample: epoch-2_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:04:36,709 [INFO]   Saved sample: epoch-2_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:04:40,162 [INFO]   Saved sample: epoch-2_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:05:24,732 [INFO] Epoch 3/10 | Step 10/53 | Loss: 0.0434 | LR: 2.60e-05
+2026-02-07 10:06:19,386 [INFO] Epoch 3/10 | Step 20/53 | Loss: 0.0430 | LR: 2.80e-05
+2026-02-07 10:07:13,931 [INFO] Epoch 3/10 | Step 30/53 | Loss: 0.0029 | LR: 3.00e-05
+2026-02-07 10:07:47,998 [INFO] Epoch 3/10 | Step 40/53 | Loss: 0.0081 | LR: 3.40e-05
+2026-02-07 10:08:16,745 [INFO] Epoch 3/10 | Step 50/53 | Loss: 0.2665 | LR: 3.60e-05
+2026-02-07 10:08:26,567 [INFO] Epoch 3/10 | Step 53/53 | Loss: 0.0264 | LR: 3.60e-05
+2026-02-07 10:08:26,570 [INFO] Epoch 3 complete — Avg Loss: 0.1401
+2026-02-07 10:08:26,604 [INFO] Saved checkpoint: output/lora-model/epoch-3
+2026-02-07 10:08:26,604 [INFO] Generating validation samples for epoch 3...
+2026-02-07 10:08:30,045 [INFO]   Saved sample: epoch-3_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:08:33,595 [INFO]   Saved sample: epoch-3_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:08:37,134 [INFO]   Saved sample: epoch-3_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:08:40,635 [INFO]   Saved sample: epoch-3_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:09:09,019 [INFO] Epoch 4/10 | Step 10/53 | Loss: 0.0066 | LR: 3.80e-05
+2026-02-07 10:09:37,285 [INFO] Epoch 4/10 | Step 20/53 | Loss: 0.2677 | LR: 4.00e-05
+2026-02-07 10:10:05,433 [INFO] Epoch 4/10 | Step 30/53 | Loss: 0.5295 | LR: 4.20e-05
+2026-02-07 10:10:33,578 [INFO] Epoch 4/10 | Step 40/53 | Loss: 0.1418 | LR: 4.60e-05
+2026-02-07 10:11:01,702 [INFO] Epoch 4/10 | Step 50/53 | Loss: 0.0466 | LR: 4.80e-05
+2026-02-07 10:11:10,113 [INFO] Epoch 4/10 | Step 53/53 | Loss: 0.0126 | LR: 4.80e-05
+2026-02-07 10:11:10,115 [INFO] Epoch 4 complete — Avg Loss: 0.1245
+2026-02-07 10:11:10,154 [INFO] Saved checkpoint: output/lora-model/epoch-4
+2026-02-07 10:11:10,154 [INFO] Generating validation samples for epoch 4...
+2026-02-07 10:11:14,014 [INFO]   Saved sample: epoch-4_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:11:18,050 [INFO]   Saved sample: epoch-4_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:11:22,209 [INFO]   Saved sample: epoch-4_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:11:26,137 [INFO]   Saved sample: epoch-4_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:12:15,741 [INFO] Epoch 5/10 | Step 10/53 | Loss: 0.1774 | LR: 5.00e-05
+2026-02-07 10:13:03,734 [INFO] Epoch 5/10 | Step 20/53 | Loss: 0.2189 | LR: 5.20e-05
+2026-02-07 10:13:49,149 [INFO] Epoch 5/10 | Step 30/53 | Loss: 0.0595 | LR: 5.40e-05
+2026-02-07 10:14:17,832 [INFO] Epoch 5/10 | Step 40/53 | Loss: 0.1478 | LR: 5.80e-05
+2026-02-07 10:14:46,670 [INFO] Epoch 5/10 | Step 50/53 | Loss: 0.0282 | LR: 6.00e-05
+2026-02-07 10:14:55,256 [INFO] Epoch 5/10 | Step 53/53 | Loss: 0.0857 | LR: 6.00e-05
+2026-02-07 10:14:55,256 [INFO] Epoch 5 complete — Avg Loss: 0.1404
+2026-02-07 10:14:55,290 [INFO] Saved checkpoint: output/lora-model/epoch-5
+2026-02-07 10:14:55,290 [INFO] Generating validation samples for epoch 5...
+2026-02-07 10:14:58,810 [INFO]   Saved sample: epoch-5_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:15:02,268 [INFO]   Saved sample: epoch-5_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:15:05,706 [INFO]   Saved sample: epoch-5_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:15:09,161 [INFO]   Saved sample: epoch-5_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:15:37,526 [INFO] Epoch 6/10 | Step 10/53 | Loss: 0.1199 | LR: 6.20e-05
+2026-02-07 10:16:05,728 [INFO] Epoch 6/10 | Step 20/53 | Loss: 0.4746 | LR: 6.40e-05
+2026-02-07 10:16:33,778 [INFO] Epoch 6/10 | Step 30/53 | Loss: 0.0942 | LR: 6.60e-05
+2026-02-07 10:17:03,518 [INFO] Epoch 6/10 | Step 40/53 | Loss: 0.0837 | LR: 7.00e-05
+2026-02-07 10:17:50,969 [INFO] Epoch 6/10 | Step 50/53 | Loss: 0.0107 | LR: 7.20e-05
+2026-02-07 10:18:04,394 [INFO] Epoch 6/10 | Step 53/53 | Loss: 0.1992 | LR: 7.20e-05
+2026-02-07 10:18:04,395 [INFO] Epoch 6 complete — Avg Loss: 0.1354
+2026-02-07 10:18:04,433 [INFO] Saved checkpoint: output/lora-model/epoch-6
+2026-02-07 10:18:04,434 [INFO] Generating validation samples for epoch 6...
+2026-02-07 10:18:08,651 [INFO]   Saved sample: epoch-6_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:18:12,749 [INFO]   Saved sample: epoch-6_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:18:16,724 [INFO]   Saved sample: epoch-6_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:18:20,658 [INFO]   Saved sample: epoch-6_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:19:03,070 [INFO] Epoch 7/10 | Step 10/53 | Loss: 0.2936 | LR: 7.40e-05
+2026-02-07 10:19:31,781 [INFO] Epoch 7/10 | Step 20/53 | Loss: 0.2066 | LR: 7.60e-05
+2026-02-07 10:20:00,496 [INFO] Epoch 7/10 | Step 30/53 | Loss: 0.0265 | LR: 7.80e-05
+2026-02-07 10:20:29,167 [INFO] Epoch 7/10 | Step 40/53 | Loss: 0.0074 | LR: 8.20e-05
+2026-02-07 10:20:57,877 [INFO] Epoch 7/10 | Step 50/53 | Loss: 0.0110 | LR: 8.40e-05
+2026-02-07 10:21:06,560 [INFO] Epoch 7/10 | Step 53/53 | Loss: 0.0544 | LR: 8.40e-05
+2026-02-07 10:21:06,567 [INFO] Epoch 7 complete — Avg Loss: 0.1147
+2026-02-07 10:21:06,607 [INFO] Saved checkpoint: output/lora-model/epoch-7
+2026-02-07 10:21:06,607 [INFO] Generating validation samples for epoch 7...
+2026-02-07 10:21:10,106 [INFO]   Saved sample: epoch-7_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:21:13,576 [INFO]   Saved sample: epoch-7_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:21:17,038 [INFO]   Saved sample: epoch-7_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:21:20,484 [INFO]   Saved sample: epoch-7_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:21:50,460 [INFO] Epoch 8/10 | Step 10/53 | Loss: 0.2437 | LR: 8.60e-05
+2026-02-07 10:22:19,182 [INFO] Epoch 8/10 | Step 20/53 | Loss: 0.1562 | LR: 8.80e-05
+2026-02-07 10:22:49,872 [INFO] Epoch 8/10 | Step 30/53 | Loss: 0.0908 | LR: 9.00e-05
+2026-02-07 10:23:18,725 [INFO] Epoch 8/10 | Step 40/53 | Loss: 0.8954 | LR: 9.40e-05
+2026-02-07 10:23:46,877 [INFO] Epoch 8/10 | Step 50/53 | Loss: 0.1229 | LR: 9.60e-05
+2026-02-07 10:23:55,296 [INFO] Epoch 8/10 | Step 53/53 | Loss: 0.0315 | LR: 9.60e-05
+2026-02-07 10:23:55,296 [INFO] Epoch 8 complete — Avg Loss: 0.1553
+2026-02-07 10:23:55,331 [INFO] Saved checkpoint: output/lora-model/epoch-8
+2026-02-07 10:23:55,331 [INFO] Generating validation samples for epoch 8...
+2026-02-07 10:23:58,849 [INFO]   Saved sample: epoch-8_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:24:02,300 [INFO]   Saved sample: epoch-8_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:24:05,779 [INFO]   Saved sample: epoch-8_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:24:09,222 [INFO]   Saved sample: epoch-8_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:24:37,902 [INFO] Epoch 9/10 | Step 10/53 | Loss: 0.2608 | LR: 9.80e-05
+2026-02-07 10:25:06,719 [INFO] Epoch 9/10 | Step 20/53 | Loss: 0.0070 | LR: 1.00e-04
+2026-02-07 10:25:35,476 [INFO] Epoch 9/10 | Step 30/53 | Loss: 0.0343 | LR: 9.76e-05
+2026-02-07 10:26:21,703 [INFO] Epoch 9/10 | Step 40/53 | Loss: 0.4085 | LR: 7.94e-05
+2026-02-07 10:27:19,699 [INFO] Epoch 9/10 | Step 50/53 | Loss: 0.0044 | LR: 6.55e-05
+2026-02-07 10:27:34,509 [INFO] Epoch 9/10 | Step 53/53 | Loss: 0.1508 | LR: 6.55e-05
+2026-02-07 10:27:34,510 [INFO] Epoch 9 complete — Avg Loss: 0.1799
+2026-02-07 10:27:34,548 [INFO] Saved checkpoint: output/lora-model/epoch-9
+2026-02-07 10:27:34,548 [INFO] Generating validation samples for epoch 9...
+2026-02-07 10:27:38,551 [INFO]   Saved sample: epoch-9_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:27:42,545 [INFO]   Saved sample: epoch-9_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:27:46,666 [INFO]   Saved sample: epoch-9_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:27:50,716 [INFO]   Saved sample: epoch-9_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:28:30,250 [INFO] Epoch 10/10 | Step 10/53 | Loss: 0.2631 | LR: 5.00e-05
+2026-02-07 10:28:58,963 [INFO] Epoch 10/10 | Step 20/53 | Loss: 0.0031 | LR: 3.45e-05
+2026-02-07 10:29:27,786 [INFO] Epoch 10/10 | Step 30/53 | Loss: 0.0480 | LR: 2.06e-05
+2026-02-07 10:29:56,545 [INFO] Epoch 10/10 | Step 40/53 | Loss: 0.0859 | LR: 2.45e-06
+2026-02-07 10:30:25,515 [INFO] Epoch 10/10 | Step 50/53 | Loss: 0.2095 | LR: 0.00e+00
+2026-02-07 10:30:34,157 [INFO] Epoch 10/10 | Step 53/53 | Loss: 0.0095 | LR: 0.00e+00
+2026-02-07 10:30:34,157 [INFO] Epoch 10 complete — Avg Loss: 0.1433
+2026-02-07 10:30:34,192 [INFO] Saved checkpoint: output/lora-model/epoch-10
+2026-02-07 10:30:34,192 [INFO] Generating validation samples for epoch 10...
+2026-02-07 10:30:37,628 [INFO]   Saved sample: epoch-10_sample-1.png — "interior, living room, 90s cartoon style, medium shot"
+2026-02-07 10:30:41,014 [INFO]   Saved sample: epoch-10_sample-2.png — "exterior, park, 90s cartoon style, wide shot"
+2026-02-07 10:30:44,411 [INFO]   Saved sample: epoch-10_sample-3.png — "interior, kitchen, 90s cartoon style, close up"
+2026-02-07 10:30:47,818 [INFO]   Saved sample: epoch-10_sample-4.png — "exterior, street, 90s cartoon style, high angle"
+2026-02-07 10:30:47,881 [INFO] Training complete.
